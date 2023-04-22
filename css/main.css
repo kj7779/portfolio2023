@@ -133,6 +133,7 @@ myworks
 }
 .wrapper2 li {
     width: 32%;
+    background: pink;
     list-style: none;
     padding: 5px;
     border: 1px solid;
