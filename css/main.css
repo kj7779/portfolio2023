@@ -54,11 +54,25 @@ Mainvisual
 -------------------------------------------*/
 #mainvisual {
   margin-bottom: 80px;
+  position:relative;
+}
+
+#mainvisual p {
+  position: absolute;
+  top: 200px;
+  left: 480px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+  @media (max-width: 500px) {
+    top: 200px;
+  left: 90px;
+    }
 }
 #mainvisual img {
   width: 100%;
   max-width: 1920px;
-  height: 400px;
+  max-height: 400px;
   object-fit: cover;
 }
 
@@ -83,25 +97,51 @@ About
 /*-------------------------------------------
 myworks
 -------------------------------------------*/
+
 .wrapper ul {
   display: flex;
   justify-content: space-between;
+  width:100%;
 
-  @media (max-width: 500px) {
-  display:flex;
-  flex-flow: column;
-  }
 }
 .wrapper li {
-  width: 32%;
+  width: 47%;
     list-style: none;
     padding: 5px;
     border: 1px solid;
     border-radius: 10px;
     margin: 5px;
     @media (max-width: 500px) {
-      width:90%;
+      width:47%;
       }
+
+
+}
+
+.wrapper2 {
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+  padding: 0 ;
+  text-align: center;
+}
+
+.wrapper2 ul {
+  display: flex; /* flexbox */
+	flex-wrap: wrap; /* 折返し指定 */
+  margin: 0 10px;
+
+}
+.wrapper2 li {
+    width: 32%;
+    list-style: none;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+    @media (max-width: 500px) {
+      width:45%;
+      }
+
 
 }
 
