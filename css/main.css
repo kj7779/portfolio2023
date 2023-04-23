@@ -58,6 +58,11 @@ section li {
     text-align: center;
     margin: 10px;
 }
+@media screen and (max-width: 480px) {
+    section li {
+        width:42%;
+    }
+}
 section p {
     text-align: left;
     margin:10px 10px;
