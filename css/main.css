@@ -56,11 +56,11 @@ section li {
     border: 1px solid gray;
     border-radius: 10px;
     text-align: center;
-    margin: 10px;
+    margin: 10px auto;
 }
 @media screen and (max-width: 480px) {
     section li {
-        width:42%;
+        width:43%;
     }
 }
 section p {
