@@ -1,29 +1,14 @@
-/*-------------------------------------------
-ヘッダー
--------------------------------------------*/
-#header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-  }
-  #header ul {
-    display: flex;
-    padding: 10px 0;
-  }
-  #header li {
-    margin-left: 30px;
-  }
-  #header li a {
-    color: #24292e;
-  }
-  #header li a:hover {
-    opacity: 0.7;
-  }
+.header-position {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 
-  .header-position {
-    width: 960px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
+.header-menu {
+  background: blue;
+}
+
+.navbar-margin {
+  margin: auto;
+  padding: 0;
+}
