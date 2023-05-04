@@ -31,9 +31,7 @@ img {
 ul {
     display: flex; /* flexbox */
     flex-wrap: wrap; /* 折返し指定 */
-    margin: 0 auto;
-    width: 100%;
-    padding:0;
+    padding:0 10px;
 }
 
 a {
@@ -60,7 +58,7 @@ section li {
 }
 @media screen and (max-width: 480px) {
     section li {
-        width:43%;
+        width:44%;
     }
 }
 section p {
